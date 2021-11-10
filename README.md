@@ -1,10 +1,10 @@
-1) Title : ...
+## Title : ...
 
-2) Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
+## Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
 
 ...
 
-3) Research Questions: A list of research questions you would like to address during the project.
+## Research Questions: A list of research questions you would like to address during the project.
 
 ...
 
