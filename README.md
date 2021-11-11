@@ -1,6 +1,4 @@
-## Title
-
-Recent trends in gender issues in a global context : seeking for contrasted opinions
+## Recent trends in gender issues in a global context : seeking for contrasted opinions
 
 ## Abstract
 
