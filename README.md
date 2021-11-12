@@ -1,7 +1,7 @@
 Files for Milestone 2 : 
 
 - ```DataLoading.ipynb```: Notebook with all the steps from the Quotebank dataset to the final clean dataset we're going to use.
-- ```InitialAnalysis.ipynb```: Notebook containing initial analyses and data handling pipelines. 
+- ```Initial_analysis.ipynb```: Notebook containing initial analyses and data handling pipelines. 
 - ```result_data.json``` : Final dataset obtained in ```DataLoading.ipynb``` and analysed in ```InitialAnalysis.ipynb```.
 
 ## Recent trends in gender issues in a global context : seeking for contrasted opinions
@@ -49,7 +49,7 @@ For that, NLP techniques were used and the NLTK library, such as Text Tokenizati
 
 **3) Sentiment analysis: Analysis of quotes**
 
-We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in "NLP_testing.ipynb" and concluded we will use the NLTK library in this study.
+We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in ```NLP_testing.ipynb``` and concluded we will use the ```NLTK library in this study.
 
 It will allow us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
 
