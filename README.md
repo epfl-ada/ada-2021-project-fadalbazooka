@@ -27,41 +27,29 @@ The Wikidata was however used to have access to the speaker's attributes such as
 
 ### Methods
 
-1) Data pre-processing (DONE)
+1) Loading & Preprocessing data from Quotebank : 'Quotes.ipynb'
 
-First of all, in order to handle the dataset which is really heavy, we had to do some data pre-processing steps.
+First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
+The final goal of this first crucial step was to have a clean and specific dataset for our research study. Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
 
-The dataset is large, so we had to divide it into parts. 
-To limit its size, we took only quotes that contain keywords concerning our topics. You can find the bank of words and its source that we used to filter the Quotebank dataset in the file (GIVE THE FILE'S NAME).
-Then, we added speakers' features: nationality, date of birth, gender etc to the dataset from WikiData. 
-Initial WikiData contains IDs that have to be mapped with labels.   
-Finally, we got the dataset joining quotes and information about speakers. 
-This dataset contains ..... features and ..... samples.
+- The dataset is large, so we had to divide it into parts/chunks. 
+- From those parts, we took only quotes that contain keywords concerning our topics. You can find the bank of keywords we used for filtering (and its source) the Quotebank dataset in the file (Quotes.ipynb).
+- Then, in order to adress our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
+- We finally joined quotes and information about speakers into a final json file on which we can perform our analysis.
 
-Looking through the dataset we found NaN values, which we removed or filled by correct values. 
-Missing quotes or authors have to be removed. 
-Wikidata missing values can be processed with WikiData API.  
-The result contains ..... samples. It means that the analysis can proceed with a sufficient sample. 
+Our final dataset contains  features and 209'000 quotes.
 
-2) Initial analysis / Exploratory data analysis (DONE)   : Expliciter tous les plots qu'on va faire
+
+2) Initial analysis / Exploratory data analysis : 'InitialAnalysis.ipynb'
 
 Firstly, we decided to check if research questions were feasible.
 If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements.
-We looked at the frequency of gender-related topics mentioned in quotes depending on the year.
-After that, we checked which words were the most frequent quotes containing keywords depending on the year.
-Finally, we plotted the distribution of the most frequent words (from our bank of words) by year and their word cloud.
-
-3) Sentiment analysis (TO BE DONE FOR MILESTONE 3) : Analysis of quotes
 
 
+3) Sentiment analysis : Analysis of quotes
 
-4) Answering our research questions computationally (TO BE DONE FOR MILESTONE 3)
 
-...
-
-5) Presenting our results (TO BE DONE FOR MILESTONE 3)
-
-...
+4) Observational study : 
 
 ### Proposed timeline
 
