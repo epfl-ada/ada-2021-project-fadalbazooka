@@ -19,11 +19,11 @@ We will focus on observing changes in the speakers’ opinion on the topics of g
 ## 3. Additional datasets
 
 We do not plan to use any additional datasets than the one provided for the outlook of this project.
-The Wikidata was however used to have access to the speaker's attributes such as their nationality, gender, or age.
+The Wikidata was however used to have access to the speaker's attributes such as their nationality, gender, age and occupation.
 
 ## 4. Methods
 
-1) Loading & Preprocessing data from Quotebank : 'Quotes.ipynb'
+1) Loading & Preprocessing data from Quotebank : 'DataLoading.ipynb'
 
 First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
 The final goal of this first crucial step was to have a clean and specific dataset for our research study. Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
@@ -33,12 +33,11 @@ The final goal of this first crucial step was to have a clean and specific datas
 - Then, in order to adress our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
 - We finally joined quotes and information about speakers into a final json file on which we can perform our analysis.
 
-Our final dataset contains features and 209'000 quotes.
+Our final dataset contains 9 features and 209'000 quotes to analyse.
 
 2) Initial analysis / Exploratory data analysis : 'InitialAnalysis.ipynb'
 
-Firstly, we decided to check if research questions were feasible.
-If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements.
+Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements. For that, we 
 
 3) Sentiment analysis : Analysis of quotes
 
@@ -54,13 +53,15 @@ We are going to make an observational study thanks to the sentimental analysis t
 
 On the website we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
 
+
+
 ## 5. Proposed timeline
 
 1) Based on our dataset observations, correct it - Goal : by 03/12
 
 2) Compute the sentiment analysis and assess the validity of our data - Goal : by 03/10
 
-At the end of the this phase, we shoul
+At the end of the this phase, we should :
 
 3) Compute the figures we are interested in and answer our research questions - Goal : by 10/12
 
@@ -68,7 +69,7 @@ At the end of the this phase, we shoul
 
 5) Build the website and make the data story - Goal : by 17/12
 
-### Organization within the team: a list of internal milestones up until project Milestone 3.
+### 6. Organization within the team
 
 Below is how we plan to divide the task for the 3 weeks in between Homework 2 due date and Project Milestone 3 due date :
 
@@ -76,5 +77,3 @@ Below is how we plan to divide the task for the 3 weeks in between Homework 2 du
 - Week 2 : The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek for interesting trends.
 - Week 3 : The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
 
-
-## 6. Questions for TAs (optional)
