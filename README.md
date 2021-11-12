@@ -16,12 +16,10 @@ We will focus on observing changes in the speakers’ opinion on the topics of g
 - Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms 
 - Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
 
-
 ### Additional datasets
 
 We do not plan to use any additional datasets than the one provided for the outlook of this project.
 The Wikidata was however used to have access to the speaker's attributes such as their nationality, gender, or age.
-
 
 ### Methods
 
@@ -35,18 +33,18 @@ The final goal of this first crucial step was to have a clean and specific datas
 - Then, in order to adress our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
 - We finally joined quotes and information about speakers into a final json file on which we can perform our analysis.
 
-Our final dataset contains  features and 209'000 quotes.
-
+Our final dataset contains features and 209'000 quotes.
 
 2) Initial analysis / Exploratory data analysis : 'InitialAnalysis.ipynb'
 
 Firstly, we decided to check if research questions were feasible.
 If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements.
 
-
 3) Sentiment analysis : Analysis of quotes
 
-...
+We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in "NLP_testing.ipynb" and concluded we will use the NLTK library in this study.
+
+It will allow us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
 
 4) Observational study : Looking for trends
 
@@ -65,7 +63,7 @@ So far, our restrictions on duplicates have not allowed to solve this issue.
 We also face a language issue. The word "gay" (for example) is included in many quotes that are not relevant here, like :
 "Desh bhakti ko bhi kosa jaata ho, aisa mahaul ban **gaya** hai, (there is an atmosphere in the country where even gestures of nationalism and patriotism are abused)"
 
-2) Compute the interest figures we are interested in - Goal : by ../..
+2) Compute the figures we are interested in - Goal : by ../..
 
 ...
 
