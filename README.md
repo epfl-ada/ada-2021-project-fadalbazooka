@@ -26,7 +26,31 @@ The Wikidata was however used to have access to the speaker's attributes such as
 
 ### Methods
 
-First of all, in order to handle the dataset which is really heavy, we had to do some data pre-processing steps. 
+1) Data preparation (DONE)
+
+First of all, in order to handle the dataset which is really heavy, we had to do some data pre-processing steps.
+
+The dataset is large, so we had to divide it into parts. 
+To limit its size, we took only quotes that contain keywords concerning our topics. 
+We added speakers' features: nationality, date of birth, gender etc to the dataset from WikiData. 
+Initial WikiData contains IDs that have to be mapped with labels.   
+Finally, we got the dataset aggregating quotes and information about speakers. 
+This dataset contains % features and % samples.
+
+Looking through the dataset we found NaN values, which we removed or filled by correct values. 
+Missing quotes or authors have to be removed. 
+Wikidata missing values can be processed with WikiData API.  
+The result contains ..... samples. It means that the analysis can proceed with a sufficient sample. 
+
+2) Initial analysis (DONE)
+
+Firstly, we decided to check if research questions are feasible. 
+If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements. 
+We looked at the frequency of gender-related topics mentioned in quotes depending on the year.   
+
+After that, we checked which words were the most frequent quotes containing keywords depending on the year.
+
+Finally, we plotted the distribution of the most frequent words by year and their word cloud.  
 
 ### Proposed timeline
 
