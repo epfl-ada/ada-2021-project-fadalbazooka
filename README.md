@@ -23,51 +23,49 @@ The Wikidata was however used to have access to the speaker's attributes such as
 
 ## 4. Methods
 
-1) Loading & Preprocessing data from Quotebank : 'DataLoading.ipynb'
+1) Loading & Preprocessing data from Quotebank: 'DataLoading.ipynb'
 
 First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
 The final goal of this first crucial step was to have a clean and specific dataset for our research study. Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
 
 - The dataset is large, so we had to divide it into parts/chunks. 
 - From those parts, we took only quotes that contain keywords concerning our topics. You can find the bank of keywords we used for filtering (and its source) the Quotebank dataset in the file (Quotes.ipynb).
-- Then, in order to adress our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
+- Then, in order to address our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
 - We finally joined quotes and information about speakers into a final json file on which we can perform our analysis.
 
 Our final dataset contains 9 features and 209'000 quotes to analyse.
 
-2) Initial analysis / Exploratory data analysis : 'InitialAnalysis.ipynb'
+2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'
 
-Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements. For that, we 
+Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find enhancements. We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and be able to establish a strategy for the data analysis.
 
-3) Sentiment analysis : Analysis of quotes
+3) Sentiment analysis: Analysis of quotes
 
 We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in "NLP_testing.ipynb" and concluded we will use the NLTK library in this study.
 
 It will allow us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
 
-4) Observational study : Looking for trends
+4) Observational study: Looking for trends
 
 We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions.
 
-5) Data visualization : Showing the data story
+5) Data visualization: Showing the data story
 
-On the website we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
-
-
+On the website, we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
 
 ## 5. Proposed timeline
 
-1) Based on our dataset observations, correct it - Goal : by 03/12
+1) Based on our dataset observations, correct it - Goal: by 03/12
 
-2) Compute the sentiment analysis and assess the validity of our data - Goal : by 03/10
+2) Compute the sentiment analysis and assess the validity of our data - Goal: by 03/10
 
 At the end of the this phase, we should :
 
-3) Compute the figures we are interested in and answer our research questions - Goal : by 10/12
+3) Compute the figures we are interested in and answer our research questions - Goal: by 10/12
 
-4) Make the interactive maps we are interested in - Goal : by 17/12
+4) Make the interactive maps we are interested in - Goal: by 17/12
 
-5) Build the website and make the data story - Goal : by 17/12
+5) Build the website and make the data story - Goal: by 17/12
 
 ### 6. Organization within the team
 
