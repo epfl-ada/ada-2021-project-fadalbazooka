@@ -1,6 +1,6 @@
 ## Recent trends in gender issues in a global context : seeking for contrasted opinions
 
-### Abstract
+## 1. Abstract
 
 Gender norms are social principles that govern the behavior of all of us in society and restrict our gender identity into what is considered to be appropriate. These are neither static nor universal and change over time, and can result in inequalities. 
 
@@ -9,19 +9,19 @@ The feminism topic also indicates real changes in society. LGBT+ issues are also
 
 We will focus on observing changes in the speakers’ opinion on the topics of gender equality and same-sex relations, depending on their nationality, age, as well as possibly occupation, and quote date. It is also of interest to compare opinions within countries before and after national events, such as same-sex marriage legalization.
 
-### Research Questions:
+## 2. Research Questions:
 
 - How legalization of same-sex marriage influenced the opinion of the authors of the quotes?
 - Which countries' opinions significantly contrast with others ?
 - Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms 
 - Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
 
-### Additional datasets
+## 3. Additional datasets
 
 We do not plan to use any additional datasets than the one provided for the outlook of this project.
 The Wikidata was however used to have access to the speaker's attributes such as their nationality, gender, or age.
 
-### Methods
+## 4. Methods
 
 1) Loading & Preprocessing data from Quotebank : 'Quotes.ipynb'
 
@@ -54,10 +54,7 @@ We are going to make an observational study thanks to the sentimental analysis t
 
 On the website we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
 
-
-
-
-### Proposed timeline
+## 5. Proposed timeline
 
 1) Based on our dataset observations, correct it - Goal : by 03/12
 
@@ -80,6 +77,4 @@ Below is how we plan to divide the task for the 3 weeks in between Homework 2 du
 - Week 3 : The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
 
 
-### Questions for TAs (optional)
-
-...
+## 6. Questions for TAs (optional)
