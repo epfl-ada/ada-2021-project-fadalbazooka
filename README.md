@@ -45,11 +45,23 @@ The result contains ..... samples. It means that the analysis can proceed with a
 
 2) Initial analysis (DONE)
 
-Firstly, we decided to check if research questions are feasible. 
-If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements. 
-We looked at the frequency of gender-related topics mentioned in quotes depending on the year.   
+Firstly, we decided to check if research questions are feasible.
+If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements.
+We looked at the frequency of gender-related topics mentioned in quotes depending on the year.
 After that, we checked which words were the most frequent quotes containing keywords depending on the year.
-Finally, we plotted the distribution of the most frequent words by year and their word cloud.  
+Finally, we plotted the distribution of the most frequent words by year and their word cloud.
+
+3) Sentiment analysis (TO BE DONE FOR MILESTONE 3)
+
+...
+
+4) Answering our research questions computationally (TO BE DONE FOR MILESTONE 3)
+
+...
+
+5) Presenting our results (TO BE DONE FOR MILESTONE 3)
+
+...
 
 ### Proposed timeline
 
