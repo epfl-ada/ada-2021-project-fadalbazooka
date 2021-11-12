@@ -48,7 +48,7 @@ It will allow us to give an appreciation score to the quotes we selected for thi
 
 **4) Observational study: Looking for trends**
 
-We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions.
+We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions. Most of our research questions will be answered in this phase. 
 
 **5) Data visualization: Showing the data story**
 
@@ -68,11 +68,11 @@ At the end of the this phase, we should :
 
 5) Build the website and make the data story - Goal: by 17/12
 
-### 6. Organization within the team
+## 6. Organization within the team
 
 Below is how we plan to divide the task for the 3 weeks in between Homework 2 due date and Project Milestone 3 due date :
 
-- Week 1 : Arina will work on solving the data issues we so far detected (duplicates and languages). Benoit will work on computing the analysis which are linked to the validity of our data and to distribution on author-related features. William will compute the sentiment analysis on the data sample. Nicolas will compute statistics on these sentiment scores to assess their distribution. While names are assigned to these tasks, the whole team will combine its forces in the common goal.
-- Week 2 : The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek for interesting trends.
-- Week 3 : The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
+- Week 1: Arina will work on solving the data issues we have so far detected (duplicates and languages). Benoit will work on computing the analysis which is linked to the validity of our data and to distribution on author-related features. William will compute the sentiment analysis on the data sample. Nicolas will compute statistics on these sentiment scores to assess their distribution. While names are assigned to these tasks, the whole team will combine its forces in the common goal.
+- Week 2: The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek interesting trends.
+- Week 3: The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
 
