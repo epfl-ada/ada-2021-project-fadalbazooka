@@ -2,7 +2,7 @@ Files for Milestone 2 :
 
 - ```DataLoading.ipynb```: Notebook with all the steps from the Quotebank dataset to the final clean dataset we're going to use.
 - ```Initial_analysis.ipynb```: Notebook containing initial analyses and data handling pipelines. 
-- ```result_data.json``` : Final dataset obtained in ```DataLoading.ipynb``` and analysed in ```InitialAnalysis.ipynb```.
+- ```result_data.json``` : Final dataset obtained in ```DataLoading.ipynb``` and analysed in ```Initial_analysis.ipynb```.
 
 ## Recent trends in gender issues in a global context : seeking for contrasted opinions
 
