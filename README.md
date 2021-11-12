@@ -53,7 +53,26 @@ If the interest in gender-related topics hasn't noticeably changed for these yea
 
 ### Proposed timeline
 
+1) Based on our dataset observations, correct it - Goal : by ../..
+
+We saw a lot of "nearly duplicates", below is an example :
+- "What is worse than violence? Violence sanctioned by misogyny."
+- "violence that is sanctioned by misogyny"
+
+So far, our restrictions on duplicates have not allowed to solve this issue.
+
+We also face a language issue. The word "gay" (for example) is included in many quotes that are not relevant here, like :
+"Desh bhakti ko bhi kosa jaata ho, aisa mahaul ban **gaya** hai, (there is an atmosphere in the country where even gestures of nationalism and patriotism are abused)"
+
+2) Compute the interest figures we are interested in - Goal : by ../..
+
 ...
+
+3) Make the interactive maps we are interested in - Goal : by ../..
+
+...
+
+4) Build the website - Goal : by ../..
 
 ### Organization within the team: A list of internal milestones up until project Milestone 3.
 
