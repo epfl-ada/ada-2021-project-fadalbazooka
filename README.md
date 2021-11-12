@@ -48,7 +48,10 @@ It will allow us to give an appreciation score to the quotes we selected for thi
 
 4) Observational study : Looking for trends
 
-...
+We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions.
+
+
+
 
 ### Proposed timeline
 
