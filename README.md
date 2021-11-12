@@ -23,7 +23,7 @@ The Wikidata was however used to have access to the speaker's attributes such as
 
 ## 4. Methods
 
-1) Loading & Preprocessing data from Quotebank: 'DataLoading.ipynb'
+**1) Loading & Preprocessing data from Quotebank: 'DataLoading.ipynb'**
 
 First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
 The final goal of this first crucial step was to have a clean and specific dataset for our research study. Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
@@ -35,21 +35,22 @@ The final goal of this first crucial step was to have a clean and specific datas
 
 Our final dataset contains 9 features and 209'000 quotes to analyse.
 
-2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'
+**2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'**
 
 Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find enhancements. We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and be able to establish a strategy for the data analysis.
+For that, NLP techniques were used and the NLTK library, such as Text Tokenization, Text Lemmatization, and Identification of Stop Words. 
 
-3) Sentiment analysis: Analysis of quotes
+**3) Sentiment analysis: Analysis of quotes**
 
 We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in "NLP_testing.ipynb" and concluded we will use the NLTK library in this study.
 
 It will allow us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
 
-4) Observational study: Looking for trends
+**4) Observational study: Looking for trends**
 
 We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions.
 
-5) Data visualization: Showing the data story
+**5) Data visualization: Showing the data story**
 
 On the website, we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
 
