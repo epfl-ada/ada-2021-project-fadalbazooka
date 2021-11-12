@@ -9,8 +9,6 @@ The feminism topic also indicates real changes in society. LGBT+ issues are also
 
 We will focus on observing changes in the speakers’ opinion on the topics of gender equality and same-sex relations, depending on their nationality, age, as well as possibly occupation, and quote date. It is also of interest to compare opinions within countries before and after national events, such as same-sex marriage legalization.
 
-
-
 ### Research Questions:
 
 - How legalization of same-sex marriage influenced the opinion of the authors of the quotes?
@@ -48,8 +46,11 @@ If the interest in gender-related topics hasn't noticeably changed for these yea
 
 3) Sentiment analysis : Analysis of quotes
 
+...
 
-4) Observational study : 
+4) Observational study : Looking for trends
+
+...
 
 ### Proposed timeline
 
@@ -73,6 +74,8 @@ We also face a language issue. The word "gay" (for example) is included in many 
 ...
 
 4) Build the website - Goal : by ../..
+
+...
 
 ### Organization within the team: A list of internal milestones up until project Milestone 3.
 
