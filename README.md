@@ -55,7 +55,7 @@ We are going to make an observational study thanks to the sentimental analysis t
 
 ### Proposed timeline
 
-1) Based on our dataset observations, correct it - Goal : by ../..
+1) Based on our dataset observations, correct it - Goal : by 03/12
 
 We saw a lot of "nearly duplicates", below is an example :
 - "What is worse than violence? Violence sanctioned by misogyny."
@@ -66,15 +66,19 @@ So far, our restrictions on duplicates have not allowed to solve this issue.
 We also face a language issue. The word "gay" (for example) is included in many quotes that are not relevant here, like :
 "Desh bhakti ko bhi kosa jaata ho, aisa mahaul ban **gaya** hai, (there is an atmosphere in the country where even gestures of nationalism and patriotism are abused)"
 
-2) Compute the figures we are interested in - Goal : by ../..
+2) Compute the sentiment analysis and assess the validity of our data - Goal : by 03/10
 
 ...
 
-3) Make the interactive maps we are interested in - Goal : by ../..
+3) Compute the figures we are interested in and answer our research questions - Goal : by 10/12
 
 ...
 
-4) Build the website - Goal : by ../..
+4) Make the interactive maps we are interested in - Goal : by 17/12
+
+...
+
+5) Build the website and make the data story - Goal : by 17/12
 
 ...
 
