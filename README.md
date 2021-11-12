@@ -26,17 +26,18 @@ The Wikidata was however used to have access to the speaker's attributes such as
 **1) Loading & Preprocessing data from Quotebank: 'DataLoading.ipynb'**
 
 First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
-The final goal of this first crucial step was to have a clean and specific dataset for our research study. Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
+The final goal of this first crucial step was to have a clean and specific dataset for our research study (you can find in the repo the final cleaned dataset in ```result_data.json```). Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
 
 - The dataset is large, so we had to divide it into parts/chunks. 
-- From those parts, we took only quotes that contain keywords concerning our topics. You can find the bank of keywords we used for filtering (and its source) the Quotebank dataset in the file (Quotes.ipynb).
+- From those parts, we took only quotes that contain keywords concerning our topics. You can find the bank of keywords we used for filtering (and its source) the Quotebank dataset in the file (```DataLoading.ipynb```).
 - Then, in order to address our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
-- We finally joined quotes and information about speakers into a final json file on which we can perform our analysis.
+- We finally joined quotes and information about speakers from WikiData into a final json file : ```result_data.json``` that we are going to analyse.
 
-Our final dataset contains 9 features and 209'000 quotes to analyse.
+It contains 209'000 quotes and 9 features.
 
 **2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'**
 
+Our initial analysis is performed in the ```InitialAnalysis.ipynb``` file and precisely analyses the ```result_data.json```.
 Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find enhancements. We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and be able to establish a strategy for the data analysis.
 For that, NLP techniques were used and the NLTK library, such as Text Tokenization, Text Lemmatization, and Identification of Stop Words. 
 
