@@ -15,7 +15,8 @@ We will focus on observing changes in the speakers’ opinion on the topics of g
 
 - How legalization of same-sex marriage influenced the opinion of the authors of the quotes?
 - Which countries' opinions significantly contrast with others ?
-- Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms - Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
+- Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms 
+- Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
 
 
 ### Additional datasets
@@ -35,7 +36,7 @@ To limit its size, we took only quotes that contain keywords concerning our topi
 We added speakers' features: nationality, date of birth, gender etc to the dataset from WikiData. 
 Initial WikiData contains IDs that have to be mapped with labels.   
 Finally, we got the dataset aggregating quotes and information about speakers. 
-This dataset contains % features and % samples.
+This dataset contains ..... features and ..... samples.
 
 Looking through the dataset we found NaN values, which we removed or filled by correct values. 
 Missing quotes or authors have to be removed. 
@@ -47,15 +48,16 @@ The result contains ..... samples. It means that the analysis can proceed with a
 Firstly, we decided to check if research questions are feasible. 
 If the interest in gender-related topics hasn't noticeably changed for these years, it will be complicated to find enhancements. 
 We looked at the frequency of gender-related topics mentioned in quotes depending on the year.   
-
 After that, we checked which words were the most frequent quotes containing keywords depending on the year.
-
 Finally, we plotted the distribution of the most frequent words by year and their word cloud.  
 
 ### Proposed timeline
 
+...
 
 ### Organization within the team: A list of internal milestones up until project Milestone 3.
+
+...
 
 ### Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
 
