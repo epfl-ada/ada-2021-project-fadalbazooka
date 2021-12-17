@@ -75,21 +75,7 @@ We are going to make an observational study thanks to the sentimental analysis t
 
 On the website, we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
 
-## 5. Proposed timeline
-
-1) Based on our dataset observations, correct it - Goal: by 03/12
-
-2) Compute the sentiment analysis and assess the validity of our data - Goal: by 03/10
-
-At the end of the this phase, we should :
-
-3) Compute the figures we are interested in and answer our research questions - Goal: by 10/12
-
-4) Make the interactive maps we are interested in - Goal: by 17/12
-
-5) Build the website and make the data story - Goal: by 17/12
-
-## 6. Organization within the team
+## 5. Organization within the team
 
 Below is how we divided tasks between team members :
 
