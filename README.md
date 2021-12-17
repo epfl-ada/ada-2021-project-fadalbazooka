@@ -72,7 +72,7 @@ We performed this analysis on our quotes, and expanded our intial dataset into `
 
 **4) Stance analysis of quotes**
 
-...
+To do the stance analysis, we used machine learning algorithms that already existed. We took an algorithm that was developped by members of UCL for a competition named fakenewschallenge where they were asked to do a stance analysis. The algorithm we used did not have enough good results so we decided to run it with multiple inputs in order to combine the outputs and have better predicitons. However the results were not diverse enough to use them in our data story.   
 
 **5) Predicting features based on quotes**
 
