@@ -37,8 +37,9 @@ and it was built with the following repository: https://github.com/BenoitDelec/F
 
 ## 3. Additional datasets
 
-We do not plan to use any additional datasets than the one provided for the outlook of this project.
+We did not use any additional datasets than the one provided for the outlook of this project.
 The Wikidata was however used to have access to the speaker's attributes such as their nationality, gender, age and occupation.
+The external libraires we used contained pre-trained models, so we did not need to use additional datasets.
 
 ## 4. Methods
 
@@ -90,8 +91,9 @@ At the end of the this phase, we should :
 
 ## 6. Organization within the team
 
-Below is how we plan to divide the task for the 3 weeks in between Homework 2 due date and Project Milestone 3 due date :
+Below is how we divided tasks between team members :
 
-- Week 1: Arina will work on solving the data issues we have so far detected (duplicates and languages). Benoit will work on computing the analysis which is linked to the validity of our data and to distribution on author-related features. William will compute the sentiment analysis on the data sample. Nicolas will compute statistics on these sentiment scores to assess their distribution. While names are assigned to these tasks, the whole team will combine its forces in the common goal.
-- Week 2: The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek interesting trends.
-- Week 3: The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
+- Arina preprocessed the data, combined it with Wikidata, made the initial analysis, run the ML predictive models, made interactive plots and contributed to the data story.
+- Benoit contributed to the initial analysis, run the sentiment analysis on our datasets, answered research questions, and set-up the website while contributing to the data story.
+- Nicolas contributed to the initial analysis, run the stance analysis on our datasets, answered research questions and contributed to the data story.
+- William contributed to the initial analysis, compared the sentiment analysis models, answered research questions and developped the data story while contributing to the website creation.
