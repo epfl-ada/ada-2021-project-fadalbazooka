@@ -26,7 +26,6 @@ def main(fn_head, fn_bodies, fn_pred):
     file_test_instances = fn_head
     file_test_bodies = fn_bodies
     file_predictions = fn_pred
-    print(fn_head, fn_bodies, fn_pred)
     
 
     # Initialise hyperparameters
@@ -74,7 +73,6 @@ def main(fn_head, fn_bodies, fn_pred):
     # Define L2 loss
     tf_vars = tf.trainable_variables()
     l2_loss = tf.add_n([tf.nn.l2_loss(v) for v in tf_vars if 'bias' not in v.name]) * l2_alpha
-    print("loss function model")
     # Define overall loss
     loss = tf.reduce_sum(tf.nn.sparse_softmax_cross_entropy_with_logits(logits, stances_pl) + l2_loss)
 
@@ -82,9 +80,7 @@ def main(fn_head, fn_bodies, fn_pred):
     softmaxed_logits = tf.nn.softmax(logits)
     predict = tf.arg_max(softmaxed_logits, 1)
 
-    
-    print("load model beg")
-    # Load model
+        # Load model
     if mode == 'load':
         with tf.Session() as sess:
             load_model(sess)
@@ -93,7 +89,6 @@ def main(fn_head, fn_bodies, fn_pred):
             # Predict
             test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
             test_pred = sess.run(predict, feed_dict=test_feed_dict)
-        print("test passed")
 
     # Train model
     if mode == 'train':
