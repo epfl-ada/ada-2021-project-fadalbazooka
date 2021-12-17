@@ -77,7 +77,7 @@ You can find the [paper](https://arxiv.org/abs/1707.03264) and the [github](http
 
 **5) Predicting features based on quotes**
 
-...
+Based on the PyTorch framework, 2 approaches were implemented to classify speaker features based on a quote converted by embedding algorithms. At the output it is expected to obtain a nationality. The first approach was a primitive neural network consisting of 2 layers: long-short term memory and linear, with the roBERTa tokenizer. The second approach was pretrained GPT 2. Since even with GPU training for 2 epochs took several hours, training was paused after 3 epochs.
 
 **6) Looking for trends, answering our research question**
 
