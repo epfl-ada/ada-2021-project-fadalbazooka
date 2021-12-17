@@ -85,9 +85,12 @@ Below is how we plan to divide the task for the 3 weeks in between Homework 2 du
 - Week 3: The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
 
 ## 7. Repository content
-
-Files for Milestone 2 : 
-
-- ```DataLoading.ipynb```: Notebook with all the steps from the Quotebank dataset to the final clean dataset we're going to use.
-- ```Initial_analysis.ipynb```: Notebook containing initial analyses and data handling pipelines. 
-- ```result_data.json``` : Final dataset obtained in ```DataLoading.ipynb``` and analysed in ```Initial_analysis.ipynb```.
+ 
+- ```1_initial_analysis```: the notebooks we used to import and filter the original datasets, and to further understand its main features.
+- ```2_datasets```: the .json and .pkl files we used to filter *Quotebank* data and further analyze it to aswer our questions.
+- ```3_sentiment_analysis```: the notebooks were we tested differend NLP (Natural Language Processing) libraries onto our datasets, and where we computed the sentiment score for each quote.
+- ```4_research_questions```: the files where we analyzed our data to answer the 4 research questions we originally detailed.
+- ```5_ML_predictions```: the files required to perform the prediction of nationalities based on quotes, containing :
+     - ```GPT2```: the files were GPT2 (Generative Pre-trained Transformer 2) open-source artificial intelligence was used (based on deep neural networks), 
+     - ```LSTM```: the files where LSTM (Long Short-Term Memory) artificial intelligence model was used (based on a recurrent neural network architecture).
+- ```6_interactive_plots```: the notebooks we used to generate interactive plots for the website.
