@@ -80,9 +80,9 @@ We performed this analysis on our quotes, and expanded our intial dataset into `
 
 **6) Looking for trends, answering our research question**
 
-We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions. Most of our research questions will be answered in this phase. 
+Based on the research questions listed previously, and from the achieved quotes' analysis, we could plot some interesting features and perfom statistical comparisons between the corresponding groups. These are detailed in ```6_research_questions```.
 
-**7) Data visualization: Showing the data story**
+**7) Data visualization: publishing our data story**
 
 The website's repository can be found at the *url* specified in the ```README.md```header, and required some interactive plots developped in ```7_interactive_plots```.
 
