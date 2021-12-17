@@ -31,7 +31,10 @@ It was built with the repository: https://github.com/BenoitDelec/FadalBazooka.gi
 ## 2. Research Questions:
 
 - How legalization of same-sex marriage influenced the opinion of the authors of the quotes?
-- Which countries' opinions significantly contrast with others ?
+- Which features of the speakers have the most impact on their sentiment regarding the LGBT community ?
+     * Which countries’ opinions significantly contrast with others ?
+     * Are singers more friendly to the LGBT community than LGBT activists?
+
 - Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms 
 - Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
 
