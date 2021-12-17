@@ -1,3 +1,15 @@
+### Repository content
+
+- ```1_datasets```: the .json and .pkl files we used to filter *Quotebank* data and further analyze it to aswer our questions.
+- ```2_initial_analysis```: the notebooks we used to import and filter the original datasets, and to further understand its main features.
+- ```3_sentiment_analysis```: the notebooks were we tested differend NLP (Natural Language Processing) libraries onto our datasets, and where we computed the sentiment score for each quote.
+- ```4_stance_analysis```: the files and notebooks were we run stance analysis on our datasets, to compare author's opinions.
+- ```5_ML_predictions```: the files required to perform the prediction of nationalities based on quotes, containing :
+     - ```GPT2```: the files were GPT2 (Generative Pre-trained Transformer 2) open-source artificial intelligence was used (based on deep neural networks), 
+     - ```LSTM```: the files where LSTM (Long Short-Term Memory) artificial intelligence model was used (based on a recurrent neural network architecture).
+- ```6_research_questions```: the files where we analyzed our data to answer the 4 research questions we originally detailed.
+- ```7_interactive_plots```: the notebooks we used to generate interactive plots for the website.
+
 # Recent trends in gender issues in a global context : seeking for contrasted opinions
 
 ## 1. Abstract
@@ -83,14 +95,3 @@ Below is how we plan to divide the task for the 3 weeks in between Homework 2 du
 - Week 1: Arina will work on solving the data issues we have so far detected (duplicates and languages). Benoit will work on computing the analysis which is linked to the validity of our data and to distribution on author-related features. William will compute the sentiment analysis on the data sample. Nicolas will compute statistics on these sentiment scores to assess their distribution. While names are assigned to these tasks, the whole team will combine its forces in the common goal.
 - Week 2: The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek interesting trends.
 - Week 3: The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
-
-## 7. Repository content
- 
-- ```1_initial_analysis```: the notebooks we used to import and filter the original datasets, and to further understand its main features.
-- ```2_datasets```: the .json and .pkl files we used to filter *Quotebank* data and further analyze it to aswer our questions.
-- ```3_sentiment_analysis```: the notebooks were we tested differend NLP (Natural Language Processing) libraries onto our datasets, and where we computed the sentiment score for each quote.
-- ```4_research_questions```: the files where we analyzed our data to answer the 4 research questions we originally detailed.
-- ```5_ML_predictions```: the files required to perform the prediction of nationalities based on quotes, containing :
-     - ```GPT2```: the files were GPT2 (Generative Pre-trained Transformer 2) open-source artificial intelligence was used (based on deep neural networks), 
-     - ```LSTM```: the files where LSTM (Long Short-Term Memory) artificial intelligence model was used (based on a recurrent neural network architecture).
-- ```6_interactive_plots```: the notebooks we used to generate interactive plots for the website.
