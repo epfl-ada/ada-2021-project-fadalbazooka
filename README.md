@@ -37,6 +37,7 @@ It was built with the repository: https://github.com/BenoitDelec/FadalBazooka.gi
 
 - Does the author's age significantly lead to different trends, i.e. does the youngest authors generally have broader gender norms 
 - Do our sentiment analysis of gender equality opinion per country matches with related indexes (European Institute for Gender Equality https://eige.europa.eu/gender-equality-index/2021 or United Nations Development Program - Human Development Report - Gender Inequality Index http://hdr.undp.org/en/content/gender-inequality-index-gii for example) ?
+- Is it possible to predict speaker’s attributes based on quotes ?
 
 ## 3. Additional datasets
 
