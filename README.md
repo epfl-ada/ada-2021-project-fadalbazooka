@@ -1,10 +1,4 @@
-Files for Milestone 2 : 
-
-- ```DataLoading.ipynb```: Notebook with all the steps from the Quotebank dataset to the final clean dataset we're going to use.
-- ```Initial_analysis.ipynb```: Notebook containing initial analyses and data handling pipelines. 
-- ```result_data.json``` : Final dataset obtained in ```DataLoading.ipynb``` and analysed in ```Initial_analysis.ipynb```.
-
-## Recent trends in gender issues in a global context : seeking for contrasted opinions
+# Recent trends in gender issues in a global context : seeking for contrasted opinions
 
 ## 1. Abstract
 
@@ -13,7 +7,14 @@ Gender norms are social principles that govern the behavior of all of us in soci
 More and more countries have recently legalized and recognized same-sex marriage, sometimes following long legal procedures. In Switzerland, this law was introduced in 2013, passed in 2020 by the parliament and adopted by referendum in September 2021.
 The feminism topic also indicates real changes in society. LGBT+ issues are also extremely present in public life, with emerging pride movements and pure gender questioning.
 
-We will focus on observing changes in the speakers’ opinion on the topics of gender equality and same-sex relations, depending on their nationality, age, as well as possibly occupation, and quote date. It is also of interest to compare opinions within countries before and after national events, such as same-sex marriage legalization.
+We focused on observing changes in the speakers’ opinion on the topics of gender equality and same-sex relations, depending on their nationality and age. 
+We also compared opinions within countries before and after national events, such as same-sex marriage legalization.
+We tried to model the effect of such variables, in order to assess their correlation with author's opinion.
+Finally, we tried to determine a model, based on quotes, which could predict an author's nationality based from it.
+
+Our website can be consulted on: https://benoitdelec.github.io/FadalBazooka.github.io/
+
+and it was built with the following repository: https://github.com/BenoitDelec/FadalBazooka.github.io
 
 ## 2. Research Questions:
 
@@ -83,3 +84,13 @@ Below is how we plan to divide the task for the 3 weeks in between Homework 2 du
 - Week 2: The whole team will work on answering the research questions statistically based on the data (combined from Quotebank and Wikidata, with the related sentiment analysis) to seek interesting trends.
 - Week 3: The whole team will contribute to the website creation, to the data story writing and to integrating the interactive visualization to it.
 
+## 7. Repository content
+ 
+- ```1_initial_analysis```: the notebooks we used to import and filter the original datasets, and to further understand its main features.
+- ```2_datasets```: the .json and .pkl files we used to filter *Quotebank* data and further analyze it to aswer our questions.
+- ```3_sentiment_analysis```: the notebooks were we tested differend NLP (Natural Language Processing) libraries onto our datasets, and where we computed the sentiment score for each quote.
+- ```4_research_questions```: the files where we analyzed our data to answer the 4 research questions we originally detailed.
+- ```5_ML_predictions```: the files required to perform the prediction of nationalities based on quotes, containing :
+     - ```GPT2```: the files were GPT2 (Generative Pre-trained Transformer 2) open-source artificial intelligence was used (based on deep neural networks), 
+     - ```LSTM```: the files where LSTM (Long Short-Term Memory) artificial intelligence model was used (based on a recurrent neural network architecture).
+- ```6_interactive_plots```: the notebooks we used to generate interactive plots for the website.
