@@ -26,7 +26,7 @@ Finally, we tried to determine a model, based on quotes, which could predict an 
 
 Our website can be consulted on: https://benoitdelec.github.io/FadalBazooka.github.io/
 
-and it was built with the following repository: https://github.com/BenoitDelec/FadalBazooka.github.io
+It was built with the repository: https://github.com/BenoitDelec/FadalBazooka.github.io
 
 ## 2. Research Questions:
 
@@ -43,29 +43,31 @@ The external libraires we used contained pre-trained models, so we did not need 
 
 ## 4. Methods
 
-**1) Loading & Preprocessing data from Quotebank: 'DataLoading.ipynb'**
+**1) Loading & Preprocessing data from Quotebank**
 
-First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps.
-The final goal of this first crucial step was to have a clean and specific dataset for our research study (you can find in the repo the final cleaned dataset in ```result_data.json```). Concretely, it means filtering the quotes to retain only those that interest our topic on gender norms. Below is the method we used :
+First of all, in order to handle the heavy and memory-consuming dataset Quotebank, we had to do some data pre-processing steps, in ```2_initial_analysis/DataLoading.ipynb```.
+The final goal of this first crucial step was to have a clean and specific dataset for our research study.
+It consisted of filtering quotes to retain only those that interest our topic on gender norms. 
 
-- The dataset is large, so we had to divide it into parts/chunks. 
-- From those parts, we took only quotes that contain keywords concerning our topics. You can find the bank of keywords we used for filtering (and its source) the Quotebank dataset in the file (```DataLoading.ipynb```).
-- Then, in order to address our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that have to be mapped with labels.   
-- We finally joined quotes and information about speakers from WikiData into a final json file : ```result_data.json``` that we are going to analyse.
-
-It contains 209'000 quotes and 9 features.
+Below is the method we used :
+- Given the dataset was large, we had to divide it into parts/chunks for preprocessing. 
+- From those parts, we took only quotes that contain keywords concerning our topics.
+- Then, in order to address our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that had to be mapped with labels.   
+- We finally joined quotes and information about speakers from WikiData into a final json file : ```1_datasets/filtered.json``` that we analyzed.
 
 **2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'**
 
-Our initial analysis is performed in the ```InitialAnalysis.ipynb``` file and precisely analyses the ```result_data.json```.
-Firstly, we decided to check if research questions were feasible. Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find enhancements. We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and be able to establish a strategy for the data analysis.
-For that, NLP techniques were used and the NLTK library, such as Text Tokenization, Text Lemmatization, and Identification of Stop Words. 
+The main features of the preprocessed and cleaned dataset can be found on the file of the same name : ```2_initial_analysis/Initial_analysis_clean_data.ipynb```, which analyzes data in 
+Firstly, we decided to check if research questions were feasible. 
+Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find interesting insights. 
+We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and to be able to establish a strategy for its analysis.
+NLP techniques, including some from the NLTK library, such as Text Tokenization, Text Lemmatization, and Identification of Stop Words, were used in this purpose.
 
 **3) Sentiment analysis: Analysis of quotes**
 
-We started the sentiment analysis by seeking for libraries that have such functions. We compared the 2 most popular we found in ```NLP_testing.ipynb``` and concluded we will use the ```NLTK library in this study.
-
-It will allow us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
+We started the sentiment analysis by seeking for libraries that have such functions. We compared the ones we found in ```3_sentiment_analysis/NLP tests``` and concluded we will use the *NLTK* library in this study (rather than *spaCy* or *roBERTa*).
+It allowed us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
+We performed this analysis on our quotes, and expanded our intial dataset into ```/1_datasets/added_sentiment.pkl``` (where the *.pkl* format is simply a *pandas.dataframe* storing option).
 
 **4) Observational study: Looking for trends**
 
