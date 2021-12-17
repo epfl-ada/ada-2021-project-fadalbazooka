@@ -12,6 +12,9 @@ We also compared opinions within countries before and after national events, suc
 We tried to model the effect of such variables, in order to assess their correlation with author's opinion.
 Finally, we tried to determine a model, based on quotes, which could predict an author's nationality based from it.
 
+Our website can be consulted on: https://benoitdelec.github.io/FadalBazooka.github.io/
+and it was built with the following repository: https://github.com/BenoitDelec/FadalBazooka.github.io
+
 ## 2. Research Questions:
 
 - How legalization of same-sex marriage influenced the opinion of the authors of the quotes?
