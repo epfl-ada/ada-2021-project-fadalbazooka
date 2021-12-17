@@ -72,7 +72,8 @@ We performed this analysis on our quotes, and expanded our intial dataset into `
 
 **4) Stance analysis of quotes**
 
-To do the stance analysis, we used machine learning algorithms that already existed. We took an algorithm that was developped by members of UCL for a competition named fakenewschallenge where they were asked to do a stance analysis. The algorithm we used did not have enough good results so we decided to run it with multiple inputs in order to combine the outputs and have better predicitons. However the results were not diverse enough to use them in our data story.   
+To do the stance analysis, we used machine learning algorithms that already existed. We took an algorithm that was developped by members of UCL for a competition named fakenewschallenge where they were asked to do a stance analysis. The algorithm we used did not have enough good results so we decided to run it with multiple inputs in order to combine the outputs and have better predicitons. However the results were not diverse enough to use them in our data story. Indeed, we had a lot of agree in the results and the disagree were very rare. The general code can be found in ```4_stance_detection/stance_results.ipynb```. Thos notebook was inspired from the ´´´main_func.py´´´ which uses ´´´pred.py´´´ as a model.  
+You can find the [paper](https://arxiv.org/abs/1707.03264) and the [github](https://github.com/uclnlp/fakenewschallenge) corresponding to this algorithm.
 
 **5) Predicting features based on quotes**
 
