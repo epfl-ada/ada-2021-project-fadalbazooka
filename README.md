@@ -57,7 +57,7 @@ Below is the method we used :
 
 **2) Initial analysis / Exploratory data analysis**
 
-The main features of the preprocessed and cleaned dataset can be found on the file of the same name : ```2_initial_analysis/Initial_analysis_clean_data.ipynb```, which analyzes data in 
+The main features of the preprocessed and cleaned dataset can be found on the file of the same name : ```2_initial_analysis/Initial_analysis_clean_data.ipynb```, which analyzes data.
 Firstly, we decided to check if research questions were feasible. 
 Indeed, if the interest in gender-related topics haven't noticeably changed in these years, it will be complicated to find interesting insights. 
 We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and to be able to establish a strategy for its analysis.
