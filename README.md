@@ -55,7 +55,7 @@ Below is the method we used :
 - Then, in order to address our research questions, we needed speakers' features: nationality, date of birth, gender and occupation. We could get them from the WikiData. Initial WikiData contains IDs that had to be mapped with labels.   
 - We finally joined quotes and information about speakers from WikiData into a final json file : ```1_datasets/filtered.json``` that we analyzed.
 
-**2) Initial analysis / Exploratory data analysis: 'InitialAnalysis.ipynb'**
+**2) Initial analysis / Exploratory data analysis**
 
 The main features of the preprocessed and cleaned dataset can be found on the file of the same name : ```2_initial_analysis/Initial_analysis_clean_data.ipynb```, which analyzes data in 
 Firstly, we decided to check if research questions were feasible. 
@@ -63,19 +63,28 @@ Indeed, if the interest in gender-related topics haven't noticeably changed in t
 We therefore plotted many variables such as the distribution of quotes per year or the most used words in our key-words database, in order to fully understand the data and to be able to establish a strategy for its analysis.
 NLP techniques, including some from the NLTK library, such as Text Tokenization, Text Lemmatization, and Identification of Stop Words, were used in this purpose.
 
-**3) Sentiment analysis: Analysis of quotes**
+**3) Sentiment analysis of quotes**
 
-We started the sentiment analysis by seeking for libraries that have such functions. We compared the ones we found in ```3_sentiment_analysis/NLP tests``` and concluded we will use the *NLTK* library in this study (rather than *spaCy* or *roBERTa*).
+We started the sentiment analysis by seeking for libraries that have such functions. 
+We compared the ones we found in ```3_sentiment_analysis/NLP tests``` and concluded we will use the *NLTK* library in this study (rather than *spaCy* or *roBERTa*).
 It allowed us to give an appreciation score to the quotes we selected for this study, and to further analyze them in the next parts of the project.
 We performed this analysis on our quotes, and expanded our intial dataset into ```/1_datasets/added_sentiment.pkl``` (where the *.pkl* format is simply a *pandas.dataframe* storing option).
 
-**4) Observational study: Looking for trends**
+**4) Stance analysis of quotes**
+
+...
+
+**5) Predicting features based on quotes**
+
+...
+
+**6) Looking for trends, answering our research question**
 
 We are going to make an observational study thanks to the sentimental analysis that we will have made beforehand. Thanks to the sentimental scores, we will be able to establish people's positions concerning the topic we chose according to the countries, the ages as well as the political positions. Most of our research questions will be answered in this phase. 
 
-**5) Data visualization: Showing the data story**
+**7) Data visualization: Showing the data story**
 
-On the website, we are going to create, we are going to work on the types of curves that will allow us to express our results in a clear way.
+The website's repository can be found at the *url* specified in the ```README.md```header, and required some interactive plots developped in ```7_interactive_plots```.
 
 ## 5. Organization within the team
 
